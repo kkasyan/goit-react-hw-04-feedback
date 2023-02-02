@@ -1,0 +1,9 @@
+button {
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 5px;
+}
+.buttonWrap {
+  display: flex;
+  justify-content: space-evenly;
+}

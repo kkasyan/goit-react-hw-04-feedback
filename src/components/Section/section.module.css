@@ -1,0 +1,9 @@
+.section {
+  padding: 20px;
+  border: black 1px solid;
+  margin: 5px;
+}
+
+.title {
+  margin: 10px;
+}

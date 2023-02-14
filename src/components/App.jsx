@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import css from './app.module.css';
+import PropTypes from 'prop-types';
 
 import { Statistics } from './Statistics/Statistics';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
@@ -54,4 +55,9 @@ export const App = () => {
       </Section>
     </div>
   );
+};
+
+App.propTypes = {
+  countPositiveFeedbackPercentage: PropTypes.func,
+  onLeaveFeedback: PropTypes.func,
 };
